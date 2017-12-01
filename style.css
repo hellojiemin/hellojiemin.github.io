@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {  /*reset spacing*/
+	margin:0; padding:0;
+	}
+	
+body {
+    background-image: url("images/cape_bg_v2.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+	font-family:"avenir";
+	font-weight:200; /*thickness of font*/
+    }
+	
+#jm_logo {
+	width:200px;
+	}
+	
+nav {
+	width: 100%;
+	background: white;
+	height: 50px;
+	position:fixed; 
+	top:0;
+	left:100%;
+	transform:translateX(-100%);
+     }
+	 
+nav ul li {
+	width:20%; 
+	height: 50px;
+	background:white;
+	float:left;
+	list-style:none; /*remove bullet*/
+	line-height:50px;
+     }
+	 
+nav ul li a {
+	color:black;
+	text-decoration:none; /*remove underline*/
+	text-transform:uppercase;
+	display:block;
+	padding-left:10px;
+	transition:padding 0.2s ease-in-out;
+    }
+	
+nav ul li a:hover {
+	background:#C64345;
+	color:black;
+	padding-left:20px;
+	}
+	
+nav ul li ul li {
+	width:100%;
+	clear:both; /*vertical*/
+    }
+	
+nav ul li ul li a {
+	color: #C64345;
+	background: white;
+	transition:background 0.3s ease-in-out;
+     }
+	 
+nav ul li ul li a:hover {
+	color: #C64345;
+	background:black;
+	}
+	
+nav ul li ul {
+	visibility:hidden;
+	}
+		
+nav ul li:hover > ul {
+	visibility:visible;
+	 }
+	 
+	
+	#hmenu img {
+		width:30px;
+		height:30px;
+		padding:10px;
+		}
+		
+	nav ul li.social {
+		width:5%;
+		font-size:20px;
+		height:50px;
+		}
+		
+	nav ul li.social a {
+		display:block;
+		line-height:50px;
+		color: black;
+		}
+		
+	nav ul li.social a.fa-instagram {
+		colour:white;
+		}
+		
+		
+#content {margin-left:5%;}
+	
+h1 {
+	 color: #C64345;
+	 text-shadow:2px 2px black;
+	 font-size:70px;
+	 }	
+	 
+.title {
+	padding-top:6%;
+	}
+ 
+ .chunk1 {
+	padding-right: 30%; 
+	 }
+
+.chunk2 {
+	padding-right: 40%; 
+	 }
+	 
+.chunk3 {
+	padding-right: 45%; 
+	 }
+	 
+.chunk4 {
+	padding-right: 50%; 
+	 }
+	 
+.chunk5 {
+	padding-right: 55%; 
+	 }
+	 
+.business_obj {
+	width: 1280px;
+	height: 5px;
+	margin-right:100px;
+	margin-top: 20px;
+}
+.box {
+	width: 130px;
+	height: 40px; 
+	float: left;
+	background-color:#C64345;
+	position:relative;
+	padding:10px;
+	box-sizing: border-box;
+	text-align:center;
+}
+.boxgap {
+	margin-left: 27px;
+}
+
+#box2 {
+	margin: 0 15px;
+	}
+	
+#box4 {
+	margin: 0 15px;
+	}
+
+.box a {
+	text-decoration:none;
+	color:white;
+	cursor:pointer;
+	}
+	
+
+.outreachbox {
+	width: 200px;
+	height: 200px; 
+	float: left;
+	background-color:#C64345;
+	position:relative;
+	padding:10px;
+	box-sizing: border-box;
+	text-align:center;
+	text-color: white;
+	margin-top: 20px;
+	}
+	
+#njd {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.outreachbox a {
+	text-decoration:none;
+	color:white;
+	cursor:pointer;
+	}
+	
+	
+#iyor18_logo {height:80px; margin-top:20px;}	
+#nna_logo {height:120px; margin-top:10px;}
+#njd_logo{height:120px; margin-top:30px;}
+#f4f_logo {height:80px; margin-top:20px;}
+#flatg_logo {height:80px; margin-top:20px;}
+
+#jmsketch1 {height:600px;margin-top:20px;}
+#jmsketch2 {height:400px;margin-top:20px;}
+#jmsketch3 {height:400px;margin-top:20px;}	
+
+#code_sc {height:400px;margin-top:20px;}
+	
+#emailadd {
+	color: #C64345;
+	 text-shadow:2px 1px black;
+	 font-size:30px
+	}
+	
+#socialmed {
+	color: #C64345;
+	 font-size:20px
+	}
+	
+#magpdf {border: 3px ; color:#c64345;}
